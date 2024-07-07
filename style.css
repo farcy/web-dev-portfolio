@@ -158,7 +158,6 @@ nav ul li a{
 .skills-head{
     text-align: center;
 }
-
 .skills-content{
     display: flex;
     gap: 24px;
@@ -173,4 +172,72 @@ nav ul li a{
 
 .skill-title{
     margin: 50px 0 20px 0;
+}
+
+
+/* resume design */
+
+.resume{
+    margin: 130px 180px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.expericence-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+.expericence-description{
+    margin: 20px 0px 0px 0px;
+}
+
+.expericence-description, experience-subtitle{
+    color: #757575;
+    
+}
+hr{
+    margin: 30px 5px;
+}
+
+.button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.resume-title{
+    text-align: center;
+    margin: 20px;
+}
+
+/* footer design */
+
+.footer{
+    padding: 130px 180px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-1st{
+    display: flex;
+}
+
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
