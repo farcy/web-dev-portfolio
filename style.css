@@ -116,6 +116,10 @@ nav ul li a{
     width: 580px;
 }
 
+.description{
+    margin: 20px 0px 30px 0px;
+}
+
 /* about style */
 .main{
     max-width: 1140px;
